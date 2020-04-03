@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Table TAG 연습 </title>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h1>Table TAG 연습 (과제 #03-01) </h1>
+
+<table width="250px" height="200px">
+
+  <tr >
+    <th colspan="4" width="150px"  height="100px"  >1</th>
+    <th colspan="4" width="100px"  height="100px"  >2</th>
+
+ 	 <tr>
+  	  <th rowspan="4" colspan="4" width="150px" height="100px" >3</th>
+  	  <th width="60px" height="50px" >4</th>
+  	  <th colspan="4"width="50px" height="50px" >5</th>
+
+		  <tr>
+
+  			  <th rowspan="2" colspan="2" width="40px" height="50px" >6</th>
+  			  <th height="25px" >7</th>
+  			  <th height="25px" >8</th>
+	
+				<tr>
+					<th width="25px" height="25px"  >9 </th>
+					<th width="25px" >10 </th>
+				</tr>
+		  <tr>
+	
+
+ 	 </tr> 
+
+  </tr> 
+
+
+
+
+
+
+
+</table>
+
+<p> 웹프로그래밍2 과목 유인경의 실습입니다. </p>
+
+</body>
+</html>
